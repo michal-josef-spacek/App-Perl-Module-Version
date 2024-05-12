@@ -27,6 +27,7 @@ no_index:
     - t
     - xt
 requires:
+  App::Perl::Module::Examples: 0
   Class::Utils: 0
   File::Find::Rule: 0
   Getopt::Std: 0
