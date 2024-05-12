@@ -4,7 +4,8 @@ TODO
 2. When I switch to 002 version and back to 0.02, it do nothing.
 3. Dependency to App::Perl::Module::Tests.
 4. Dependency to perl-script-version.
-5.
+5. Add pluggable post processes.
+6.
 
 Applied
 =======
