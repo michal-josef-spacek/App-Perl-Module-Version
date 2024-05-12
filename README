@@ -1,0 +1,54 @@
+NAME
+    perl-module-version - Tool to bump version in Perl distribution.
+
+SYNOPSIS
+     perl-module-version [-d dir] [-h] [--version] version
+
+DESCRIPTION
+    Tool to bump version in Perl distribution files.
+
+    TODO
+
+ARGUMENTS
+    *       "-d dir"
+
+            TODO
+
+    *       "-h"
+
+            Print help.
+
+    *       "--version"
+
+            Print version of script.
+
+    *       "version"
+
+            New version to set.
+
+EXAMPLE
+     perl-module-version -h
+
+REPOSITORY
+    <https://github.com/michal-josef-spacek/App-Perl-Module-Version>
+
+AUTHOR
+    Michal Josef Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+    © 2012-2024 Michal Josef Špaček
+
+    BSD 2-Clause License
+
+VERSION
+    0.01
+
+POD ERRORS
+    Hey! The above document had some coding errors, which are explained
+    below:
+
+    Around line 55:
+        Expected '=item *'
+

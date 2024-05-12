@@ -1,0 +1,85 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use App::Perl::Module::Version;
+
+our $VERSION = 0.01;
+
+# Run.
+exit App::Perl::Module::Version->new->run;
+
+# Print version.
+sub VERSION_MESSAGE {
+	print $VERSION."\n";
+	exit 0;
+}
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+perl-module-version - Tool to bump version in Perl distribution.
+
+=head1 SYNOPSIS
+
+ perl-module-version [-d dir] [-h] [--version] version
+
+=head1 DESCRIPTION
+
+Tool to bump version in Perl distribution files.
+
+TODO
+
+=head1 ARGUMENTS
+
+=over 8
+
+=item * C<-d dir>
+
+TODO
+
+=item * C<-h>
+
+Print help.
+
+=item * C<--version>
+
+Print version of script.
+
+=item C<version>
+
+New version to set.
+
+=back
+
+=head1 EXAMPLE
+
+ perl-module-version -h
+
+=head1 REPOSITORY
+
+L<https://github.com/michal-josef-spacek/App-Perl-Module-Version>
+
+=head1 AUTHOR
+
+Michal Josef Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+© 2012-2024 Michal Josef Špaček
+
+BSD 2-Clause License
+
+=head1 VERSION
+
+0.01
+
+=cut
