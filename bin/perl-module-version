@@ -34,7 +34,25 @@ perl-module-version - Tool to bump version in Perl distribution.
 
 Tool to bump version in Perl distribution files.
 
-TODO
+Tool will change version in files:
+
+=over
+
+=item * Changes/CHANGES
+
+=item * Makefile.PL
+
+=item * META.yml
+
+=item * *pm files
+
+=item * README
+
+=item * scripts in bin/*
+
+=back
+
+TODO Processes after change.
 
 =head1 ARGUMENTS
 
@@ -42,7 +60,9 @@ TODO
 
 =item * C<-d dir>
 
-TODO
+Directory to process.
+
+Default value is actual directory.
 
 =item * C<-h>
 

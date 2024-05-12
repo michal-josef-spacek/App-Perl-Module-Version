@@ -7,12 +7,28 @@ SYNOPSIS
 DESCRIPTION
     Tool to bump version in Perl distribution files.
 
-    TODO
+    Tool will change version in files:
+
+    *   Changes/CHANGES
+
+    *   Makefile.PL
+
+    *   META.yml
+
+    *   *pm files
+
+    *   README
+
+    *   scripts in bin/*
+
+    TODO Processes after change.
 
 ARGUMENTS
     *       "-d dir"
 
-            TODO
+            Directory to process.
+
+            Default value is actual directory.
 
     *       "-h"
 
@@ -49,6 +65,6 @@ POD ERRORS
     Hey! The above document had some coding errors, which are explained
     below:
 
-    Around line 55:
+    Around line 75:
         Expected '=item *'
 
